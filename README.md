@@ -1,5 +1,7 @@
 # Project Overview: Lucid Dream
 
+### 🎥 Watch Game Trailer-> https://www.youtube.com/watch?v=T36C9DlpAxc
+
 **Lucid Dream** is a solo-developed Unreal Engine 5.5 gameplay project focused on building and integrating modular gameplay systems using both C++ and Blueprint workflows.
 
 The project was developed as a technical gameplay programming showcase with an emphasis on combat systems, AI behaviors, interaction mechanics, traversal systems, UI frameworks, and cinematic gameplay flow. 
@@ -50,6 +52,9 @@ Implemented a real-time combat system focused on responsive gameplay flow, direc
   * Motion Warping for attack responsiveness
   * Combat state synchronization
   * Hit reaction and gameplay feedback systems
+<br>
+
+![Combat System](Images/Combat.png)   
 
 ### 🤖 Enemy AI System
 Developed modular enemy AI systems using Unreal Engine AI frameworks for detection, chasing, and combat behavior handling.
@@ -60,6 +65,9 @@ Developed modular enemy AI systems using Unreal Engine AI frameworks for detecti
   * Combat targeting systems
   * Enemy registry and management systems
   * Patrol, chase, and attack state handling
+<br>
+
+![Enemy AI System](Images/tracing%20and%20detection.png)  
 
 ### 🦅 Bird Possession System
 Implemented a possession-based traversal system allowing the player to transition between character control states with cinematic camera blending.
@@ -69,6 +77,9 @@ Implemented a possession-based traversal system allowing the player to transitio
   * Controller state switching
   * Gameplay state management
   * Traversal system integration
+<br>
+
+![Bird Possession System](Images/Bird_pos.png)  
 
 ### 💎 Lucid Fragment Extraction System
 Designed a gameplay interaction system focused on collecting and extracting lucid fragments tied to environmental storytelling and progression mechanics.
@@ -78,6 +89,9 @@ Designed a gameplay interaction system focused on collecting and extracting luci
   * UI interaction feedback
   * Animation-driven extraction workflows
   * Fragment progression tracking systems
+<br>
+
+![Lucid Fragment Extraction System](Images/Fragmentt.png) 
 
 ### 🏃‍♂️ IK Movement & Traversal Systems
 Implemented IK tracing systems to improve gameplay responsiveness and environmental interaction for both player and enemy characters.
@@ -86,6 +100,9 @@ Implemented IK tracing systems to improve gameplay responsiveness and environmen
   * Terrain alignment workflows
   * Movement adaptation systems
   * Enemy movement alignment handling
+<br>
+
+![IK Movement & Traversal Systems](Images/IK_trace.png) 
 
 ### 🧪 Mana & Ability System
 Implemented a resource-driven combat system where players collect and manage Mana to perform advanced combat abilities, traversal actions, and self-sustain mechanics. Mana can be acquired through environmental pickups and enemy drops, encouraging active exploration and aggressive combat engagement.
@@ -111,6 +128,9 @@ The system introduces strategic resource management by requiring players to bala
   * Dash
   * Special Attack
   * Life Drain Ability
+<br>
+
+![Mana & Ability System](Images/Mana.png) 
 
 ---
 
