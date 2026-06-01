@@ -15,7 +15,7 @@ Throughout development, the project evolved into a technical showcase featuring 
 ## Gameplay Trailer
 
 🎥 Trailer:
-[YouTube Trailer Link]
+[(https://www.youtube.com/watch?v=T36C9DlpAxc)]
 
 ---
 
