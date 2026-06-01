@@ -1,11 +1,7 @@
 # LucidDream-Portfolio
 The project was developed as a technical gameplay programming showcase with emphasis on combat systems, AI behaviors, interaction mechanics, traversal systems, UI frameworks, and cinematic gameplay flow.
 
-
-
-PROJECT OVERVIEW
-
-Lucid Dream
+# PROJECT OVERVIEW
 
 Lucid Dream is a solo-developed Unreal Engine 5.5 gameplay project focused on building and integrating modular gameplay systems using both C++ and Blueprint workflows.
 
@@ -13,7 +9,7 @@ The project was developed as a technical gameplay programming showcase with emph
 
 Development focused heavily on gameplay architecture, system communication, and real-time gameplay responsiveness while exploring sci-fi and lucid dream inspired environments and mechanics.
 
-Key gameplay systems implemented during development include:
+### Key gameplay systems implemented during development include:
 
 • Real-time combat and directional attack systems
 • IK tracing systems for player and enemy movement alignment
@@ -49,9 +45,9 @@ Technical Focus:
 
 
 
-CORE GAMEPLAY FEATURES
+# CORE GAMEPLAY FEATURES
 
-Combat System
+## Combat System
 
 Implemented a real-time combat system focused on responsive gameplay flow, directional attack handling, and animation-driven combat interactions.
 
@@ -67,7 +63,7 @@ Technical implementation included:
 
 
 
-Enemy AI System
+## Enemy AI System
 
 Developed modular enemy AI systems using Unreal Engine AI frameworks for detection, chasing, and combat behavior handling.
 
@@ -79,7 +75,7 @@ Technical implementation included:
 • Enemy registry and management systems
 • Patrol, chase, and attack state handling
 
-Bird Possession System
+## Bird Possession System
 
 Implemented a possession-based traversal system allowing the player to transition between character control states with cinematic camera blending.
 
@@ -90,7 +86,7 @@ Technical implementation included:
 • Gameplay state management
 • Traversal system integration
 
-Lucid Fragment Extraction System
+## Lucid Fragment Extraction System
 
 Designed a gameplay interaction system focused on collecting and extracting lucid fragments tied to environmental storytelling and progression mechanics.
 
@@ -101,7 +97,7 @@ Technical implementation included:
 • Animation-driven extraction workflows
 • Fragment progression tracking systems
 
-IK Movement & Traversal Systems
+## IK Movement & Traversal Systems
 
 Implemented IK tracing systems to improve gameplay responsiveness and environmental interaction for both player and enemy characters.
 
@@ -111,7 +107,7 @@ Technical implementation included:
 • Movement adaptation systems
 • Enemy movement alignment handling
 
-Mana & Ability System
+## Mana & Ability System
 
 Implemented a resource-driven combat system where players collect and manage Mana to perform advanced combat abilities, traversal actions, and self-sustain mechanics.
 
@@ -140,7 +136,7 @@ Mana Consumers:
 • Special Attack
 • Life Drain Ability
 
-Optimization & Gameplay Framework Systems
+## Optimization & Gameplay Framework Systems
 
 Implemented multiple backend gameplay systems to improve scalability, performance, and gameplay organization during development.
 
@@ -154,7 +150,7 @@ Technical implementation included:
 
 
 
-TECHNICAL PROBLEMS SOLVED DURING PRODUCTION
+## TECHNICAL PROBLEMS SOLVED DURING PRODUCTION
 
 Enemy Attack Overshooting During Combat
 
