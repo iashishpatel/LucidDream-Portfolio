@@ -1,267 +1,121 @@
-# LucidDream-Portfolio
-The project was developed as a technical gameplay programming showcase with emphasis on combat systems, AI behaviors, interaction mechanics, traversal systems, UI frameworks, and cinematic gameplay flow.
+# Lucid Dream
 
-# PROJECT OVERVIEW
+![Banner](Images/HeroShot.jpg)
 
-Lucid Dream is a solo-developed Unreal Engine 5.5 gameplay project focused on building and integrating modular gameplay systems using both C++ and Blueprint workflows.
+## Overview
 
-The project was developed as a technical gameplay programming showcase with emphasis on combat systems, AI behaviors, interaction mechanics, traversal systems, UI frameworks, and cinematic gameplay flow.
+Lucid Dream is a solo-developed Unreal Engine 5.5 gameplay programming project created as a learning-focused RPG prototype and technical portfolio piece.
 
-Development focused heavily on gameplay architecture, system communication, and real-time gameplay responsiveness while exploring sci-fi and lucid dream inspired environments and mechanics.
+The primary goal of the project was to explore and implement gameplay systems commonly found in action RPGs while improving Unreal Engine development skills using both C++ and Blueprint workflows.
 
-### Key gameplay systems implemented during development include:
+Throughout development, the project evolved into a technical showcase featuring combat systems, AI behaviors, traversal mechanics, progression systems, optimization workflows, and gameplay architecture.
 
-• Real-time combat and directional attack systems
-• IK tracing systems for player and enemy movement alignment
-• Enemy AI behavior systems using Behavior Trees and AI Perception
-• Bird possession mechanics with cinematic camera transitions
-• Dynamic weapon state systems
-• Lucid fragment extraction and interaction systems
-• Save/load progression systems
-• Object pooling workflows for gameplay optimization
-• Niagara VFX integration for gameplay feedback
-• HUD and gameplay UI systems
-• Enhanced Input gameplay architecture
-• Motion Warping integration for combat responsiveness
+---
 
-The project also involved solving production and technical workflow challenges including gameplay debugging, packaging workflows, asset management, AI initialization handling, and gameplay state synchronization inside Unreal Engine 5.5.
+## Gameplay Trailer
 
+🎥 Trailer:
+[YouTube Trailer Link]
 
+---
 
-Engine: Unreal Engine 5.5
-Role: Solo Developer
-Programming: C++ & Blueprint
-Project Type: Gameplay Programming Showcase
-Genre: Sci-Fi / Action Adventure
+## Core Gameplay Features
 
-Technical Focus:
-• Gameplay Systems
-• AI Programming
-• Combat Systems
-• Interaction Mechanics
-• UI Frameworks
-• Optimization Workflows
-• Technical Debugging & Packaging
+### Combat System
 
+* Directional attack detection using Dot Product calculations
+* Motion Warping integration
+* Weapon equip / unequip workflows
+* Hit reaction systems
+* Combat state handling
 
+### Mana & Ability System
 
-# CORE GAMEPLAY FEATURES
+* Environmental mana pickups
+* Enemy mana drops
+* Dash abilities
+* Special attacks
+* Health drain (Life Steal) mechanics
 
-## Combat System
+### Enemy AI System
 
-Implemented a real-time combat system focused on responsive gameplay flow, directional attack handling, and animation-driven combat interactions.
+* AI Perception
+* Behavior Trees
+* AI Controllers (C++)
+* Enemy Registry System
+* Patrol, Chase, and Combat states
 
-Technical implementation included:
-• Directional attack logic using Dot Product calculations
-• Weapon state handling (equip / unequip systems)
-• Animation montage integration
-• Motion Warping for attack responsiveness
-• Combat state synchronization
-• Hit reaction and gameplay feedback systems
+### Bird Possession System
 
+* Character-to-bird possession
+* Dynamic camera transitions
+* Traversal mechanics
+* Controller state switching
 
+### Lucid Fragment Extraction
 
+* Hold-to-extract interaction system
+* Story progression integration
+* UI feedback systems
+* Gameplay event triggering
 
+### IK Movement & Traversal
 
-## Enemy AI System
+* Foot IK tracing
+* Terrain adaptation
+* Dynamic ground alignment
+* Player and enemy support
 
-Developed modular enemy AI systems using Unreal Engine AI frameworks for detection, chasing, and combat behavior handling.
+### Optimization Systems
 
-Technical implementation included:
-• AI Perception system integration
-• Behavior Tree based enemy behavior workflows
-• Enemy AI Controller logic in C++
-• Combat targeting systems
-• Enemy registry and management systems
-• Patrol, chase, and attack state handling
+* Object Pooling
+* Save / Load systems
+* Enhanced Input framework
+* Niagara VFX integration
 
-## Bird Possession System
+---
 
-Implemented a possession-based traversal system allowing the player to transition between character control states with cinematic camera blending.
+## Technical Highlights
 
-Technical implementation included:
-• Character possession workflows
-• Dynamic camera transitions
-• Controller state switching
-• Gameplay state management
-• Traversal system integration
+* Unreal Engine 5.5
+* C++
+* Blueprints
+* Behavior Trees
+* AI Perception
+* Motion Warping
+* Enhanced Input
+* Object Pooling
+* SaveGame System
+* Niagara Effects
 
-## Lucid Fragment Extraction System
+---
 
-Designed a gameplay interaction system focused on collecting and extracting lucid fragments tied to environmental storytelling and progression mechanics.
+## Technical Problems Solved During Production
 
-Technical implementation included:
-• Hold interaction systems
-• Gameplay event triggering
-• UI interaction feedback
-• Animation-driven extraction workflows
-• Fragment progression tracking systems
+* Enemy attack overshooting during Motion Warping
+* Lock-On target persistence issues
+* Bird possession spawn failures
+* SaveGame synchronization bugs
+* Packaging and shipping build issues
+* AI detection edge cases
+* IK ground alignment problems
 
-## IK Movement & Traversal Systems
+---
 
-Implemented IK tracing systems to improve gameplay responsiveness and environmental interaction for both player and enemy characters.
+## Tools Used
 
-Technical implementation included:
-• Foot IK tracing systems
-• Terrain alignment workflows
-• Movement adaptation systems
-• Enemy movement alignment handling
+* Unreal Engine 5.5
+* Visual Studio
+* Git
+* Blender
+* Substance Painter
 
-## Mana & Ability System
+---
 
-Implemented a resource-driven combat system where players collect and manage Mana to perform advanced combat abilities, traversal actions, and self-sustain mechanics.
+## Developer
 
-Mana can be acquired through environmental pickups and enemy drops, encouraging active exploration and aggressive combat engagement.
+Ashish Patel
 
-Technical implementation included:
+Solo Gameplay Programming Portfolio Project
 
-• Mana collection and storage systems
-• Enemy mana drop mechanics
-• Environmental mana pickup interactions
-• Ability resource consumption logic
-• Dash ability powered by mana usage
-• Special attack activation systems
-• Health drain (life steal) mechanics
-• Dynamic UI updates for mana tracking
-• Gameplay state validation for ability execution
-
-The system introduces strategic resource management by requiring players to balance offensive abilities, mobility actions, and survivability against available mana reserves.
-
-Mana Source Types:
-• Environmental pickups
-• Enemy drop rewards
-
-Mana Consumers:
-• Dash
-• Special Attack
-• Life Drain Ability
-
-## Optimization & Gameplay Framework Systems
-
-Implemented multiple backend gameplay systems to improve scalability, performance, and gameplay organization during development.
-
-Technical implementation included:
-• Object pooling systems
-• Gameplay state management
-• Save/load progression systems
-• Enhanced Input architecture
-• HUD and gameplay UI frameworks
-• Niagara VFX gameplay integration
-
-
-
-## TECHNICAL PROBLEMS SOLVED DURING PRODUCTION
-
-Enemy Attack Overshooting During Combat
-
-Problem
-
-Enemy attack animations occasionally pushed characters beyond the player's position, causing inaccurate melee interactions.
-
-Solution
-
-Adjusted Motion Warping targets, attack ranges, and combat validation checks to ensure enemies remained aligned with their intended target.
-
-Result
-
-Improved combat accuracy and more responsive enemy attack behavior.
-
-Low Mana Audio Spam
-
-Problem
-
-Repeated ability input while lacking sufficient mana caused the warning sound effect to play continuously.
-
-Solution
-
-Implemented input validation and cooldown checks before triggering low-mana feedback events.
-
-Result
-
-Reduced audio spam and improved player feedback clarity.
-
-Lock-On Target Persistence
-
-Problem
-
-Lock-On UI elements remained active after the tracked enemy had been eliminated.
-
-Solution
-
-Added target validity checks and automatic cleanup of Lock-On references when enemies were destroyed.
-
-Result
-
-Improved target tracking stability and UI reliability.
-
-Bird Possession Spawn Failure
-
-Problem
-
-Bird possession occasionally failed due to spawn and state transition issues.
-
-Solution
-
-Refactored bird spawning validation and possession workflow handling to guarantee successful actor creation before control transfer.
-
-Result
-
-Reliable traversal transitions and stable bird possession gameplay.
-
-Save Game Currency Persistence
-
-Problem
-
-Player currency values were not being restored correctly after loading save data.
-
-Solution
-
-Extended SaveGame serialization logic to store and restore currency progression data.
-
-Result
-
-Consistent progression tracking across gameplay sessions.
-
-Packaging & Shipping Build Failures
-
-Problem
-
-Shipping builds failed due to invalid asset references, corrupted asset dependencies, and external media file path issues.
-
-Solution
-
-Identified broken references, repaired asset dependencies, migrated media resources to valid project locations, and revalidated packaging workflows.
-
-Result
-
-Successfully generated stable shipping builds suitable for distribution.
-
-Enemy Detection Edge Cases
-
-Problem
-
-AI behavior became inconsistent when players exited detection ranges or rapidly moved between combat and non-combat states.
-
-Solution
-
-Implemented Behavior Tree state validation, AI Perception handling, and fallback combat state logic.
-
-Result
-
-More reliable enemy behavior transitions and improved gameplay consistency.
-
-Character & Enemy Ground Alignment
-
-Problem
-
-Characters occasionally appeared to float above terrain or clip into uneven surfaces.
-
-Solution
-
-Implemented Foot IK tracing systems for dynamic terrain adaptation and leg alignment.
-
-Result
-
-Improved movement realism and environmental interaction quality.
-
-
+Built using Unreal Engine 5.5, C++, and Blueprint systems.
