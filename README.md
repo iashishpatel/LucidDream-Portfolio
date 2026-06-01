@@ -44,6 +44,9 @@ The project also involved solving production and technical workflow challenges i
 ## Core Gameplay Features
 
 ### ⚔️ Combat System
+
+🎥 Watch Combat System-> [https://www.youtube.com/watch?v=T36C9DlpAxc](https://www.youtube.com/watch?v=wbSkyf3sGLg)
+
 Implemented a real-time combat system focused on responsive gameplay flow, directional attack handling, and animation-driven combat interactions.
 * **Technical Implementation:**
   * Directional attack logic using Dot Product calculations
@@ -55,8 +58,11 @@ Implemented a real-time combat system focused on responsive gameplay flow, direc
 <br>
 
 ![Combat System](Images/Combat.png)   
-
+---
 ### 🤖 Enemy AI System
+
+🎥 Watch Enemy AI System-> [https://www.youtube.com/watch?v=mc4UjodEDSg](https://www.youtube.com/watch?v=mc4UjodEDSg)
+
 Developed modular enemy AI systems using Unreal Engine AI frameworks for detection, chasing, and combat behavior handling.
 * **Technical Implementation:**
   * AI Perception system integration
@@ -68,8 +74,11 @@ Developed modular enemy AI systems using Unreal Engine AI frameworks for detecti
 <br>
 
 ![Enemy AI System](Images/tracing%20and%20detection.png)  
-
+---
 ### 🦅 Bird Possession System
+
+🎥 Watch Bird Possession System-> [https://www.youtube.com/watch?v=6v7mW6jdfKs](https://www.youtube.com/watch?v=6v7mW6jdfKs)
+
 Implemented a possession-based traversal system allowing the player to transition between character control states with cinematic camera blending.
 * **Technical Implementation:**
   * Character possession workflows
@@ -80,8 +89,11 @@ Implemented a possession-based traversal system allowing the player to transitio
 <br>
 
 ![Bird Possession System](Images/Bird_pos.png)  
-
+---
 ### 💎 Lucid Fragment Extraction System
+
+🎥 Watch Lucid Fragment Extraction System-> [https://www.youtube.com/watch?v=u6svv9nm_AI](https://www.youtube.com/watch?v=u6svv9nm_AI)
+
 Designed a gameplay interaction system focused on collecting and extracting lucid fragments tied to environmental storytelling and progression mechanics.
 * **Technical Implementation:**
   * Hold interaction systems
@@ -92,8 +104,11 @@ Designed a gameplay interaction system focused on collecting and extracting luci
 <br>
 
 ![Lucid Fragment Extraction System](Images/Fragmentt.png) 
-
+---
 ### 🏃‍♂️ IK Movement & Traversal Systems
+
+🎥 Watch IK Movement & Traversal Systems-> [https://www.youtube.com/watch?v=MQcOo6jn6Hw](https://www.youtube.com/watch?v=MQcOo6jn6Hw)
+
 Implemented IK tracing systems to improve gameplay responsiveness and environmental interaction for both player and enemy characters.
 * **Technical Implementation:**
   * Foot IK tracing systems
@@ -103,7 +118,7 @@ Implemented IK tracing systems to improve gameplay responsiveness and environmen
 <br>
 
 ![IK Movement & Traversal Systems](Images/IK_trace.png) 
-
+---
 ### 🧪 Mana & Ability System
 Implemented a resource-driven combat system where players collect and manage Mana to perform advanced combat abilities, traversal actions, and self-sustain mechanics. Mana can be acquired through environmental pickups and enemy drops, encouraging active exploration and aggressive combat engagement.
 
